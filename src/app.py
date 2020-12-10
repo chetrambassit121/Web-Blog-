@@ -786,7 +786,7 @@ def create_new_post(blog_id):                                # creating new func
 
 
 if __name__ == '__main__':    # another requirment to run the Flask app we want to create
-    app.run(port=4995, debug=True)        # LINE3 variable with .run() function will run our app ...
+    app.run(port=5000, debug=True)        # LINE3 variable with .run() function will run our app ...
                               # we can also change the 5000 to 4995 or w.e port number we want
 
 
